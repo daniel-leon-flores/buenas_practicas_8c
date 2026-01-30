@@ -62,7 +62,7 @@ function guardarRegistro() {
     enviarAServidor(nuevoRegistro);
 }
 
-//SE BORRARON LOS COMENTARIOS DE LO QUE HACE ESTA FUNCIÓN
+//SE BORRARON LOS COMENTARIOS DE LO QUE HACE ESTA FUNCIÓN Y CAMBIÓ EL COMO LO HACE
 function agregarFilaTabla(registro) {
     const tabla = document.getElementById('tablaRegistros');
     const fila = document.createElement('tr');
@@ -83,7 +83,7 @@ function agregarFilaTabla(registro) {
     tabla.appendChild(fila);
 }
 
-
+//SE VALIDA MEJOR
 function validarFormulario(nombre, apellido1, apellido2, telefono, curp, email) {
     var patronNombre = /^[a-záéíóúñüA-ZÁÉÍÓÚÑÜ0-9]{3,}$/;
     var patronApellido = /^[a-záéíóúñüA-ZÁÉÍÓÚÑÜ\s]{2,}$/;
